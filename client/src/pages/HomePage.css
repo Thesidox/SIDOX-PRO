@@ -1,0 +1,58 @@
+.home{width:100%}
+/* HERO */
+.hero{position:relative;border-radius:20px;overflow:hidden;padding:5rem 2rem;text-align:center;margin-bottom:4rem;background:var(--bg1)}
+.hero-bg{position:absolute;inset:0;background:radial-gradient(ellipse at 20% 50%,rgba(59,130,246,.14) 0%,transparent 60%),radial-gradient(ellipse at 80% 20%,rgba(245,158,11,.07) 0%,transparent 50%);pointer-events:none}
+.hero-content{position:relative;z-index:1}
+.hero-badge{background:rgba(59,130,246,.15);border:1px solid rgba(59,130,246,.4);color:var(--blue2);padding:.35rem 1rem;border-radius:99px;font-size:.88rem;font-weight:700;display:inline-block;margin-bottom:1.5rem}
+.hero h1{font-size:3.5rem;font-weight:800;margin-bottom:1rem;background:linear-gradient(135deg,#f1f5f9,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero-sub{font-size:1.25rem;color:var(--blue2);margin-bottom:.75rem}
+.hero-desc{font-size:1rem;color:var(--muted);max-width:540px;margin:0 auto 2.5rem;line-height:1.7}
+.hero-btns{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-bottom:3rem}
+.hero-stats{display:flex;gap:3rem;justify-content:center;flex-wrap:wrap}
+.hero-stats div{text-align:center}
+.hero-stats strong{display:block;font-size:2rem;font-weight:800;color:var(--gold)}
+.hero-stats span{color:var(--muted);font-size:.88rem}
+/* FEATURES */
+.feat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.5rem}
+.feat-card{background:var(--bg1);border:1px solid var(--bg2);border-radius:16px;padding:2rem;text-align:center;transition:var(--tr)}
+.feat-card:hover{border-color:var(--blue);transform:translateY(-6px);box-shadow:var(--shadow)}
+.feat-icon{font-size:2.2rem;color:var(--blue);margin-bottom:1rem}
+.feat-card h3{font-size:1rem;margin-bottom:.4rem}
+.feat-card p{color:var(--muted);font-size:.88rem}
+/* COURSES */
+.courses-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem}
+.course-card{background:var(--bg1);border:1px solid var(--bg2);border-radius:16px;overflow:hidden;transition:var(--tr)}
+.course-card:hover{border-color:var(--blue);transform:translateY(-8px);box-shadow:var(--shadow)}
+.course-bundle{border-color:var(--gold)!important}
+.course-bundle:hover{border-color:var(--gold)!important;box-shadow:0 12px 40px rgba(245,158,11,.25)!important}
+.course-img{height:150px;display:flex;align-items:center;justify-content:center;font-size:4.5rem;background:linear-gradient(135deg,var(--bg2),var(--bg1))}
+.course-body{padding:1.5rem}
+.course-body h3{font-size:1.2rem;margin-bottom:.2rem}
+.course-name-en{color:var(--blue2);font-size:.85rem;margin-bottom:.75rem}
+.course-desc{color:var(--muted);font-size:.88rem;line-height:1.6;margin-bottom:1rem}
+.course-meta{display:flex;gap:1rem;margin-bottom:1rem;font-size:.85rem;color:var(--muted)}
+.course-price{font-size:1.5rem;font-weight:800;color:var(--gold);margin-bottom:1rem}
+.old-price{font-size:1rem;color:var(--muted);text-decoration:line-through;margin-right:.5rem}
+.course-actions{display:flex;gap:.6rem}
+.course-actions .btn{flex:1}
+/* STEPS */
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1.5rem}
+.step{background:var(--bg1);border:1px solid var(--bg2);border-radius:16px;padding:2rem;text-align:center}
+.step-num{font-size:2.5rem;font-weight:800;color:var(--blue);opacity:.8;margin-bottom:.75rem}
+.step h4{font-size:1rem;margin-bottom:.4rem}
+.step p{color:var(--muted);font-size:.88rem}
+/* ABOUT */
+.about-card{max-width:820px;margin:0 auto}
+.about-inner{display:flex;align-items:flex-start;gap:2rem}
+.about-logo img{width:90px;height:90px;border-radius:16px;object-fit:cover;flex-shrink:0}
+.about-card h2{font-size:1.5rem;margin-bottom:.3rem}
+.about-role{color:var(--blue2);font-size:.9rem;margin-bottom:.75rem}
+.about-bio{color:var(--muted);line-height:1.75;font-size:.92rem;margin-bottom:1rem}
+.about-social{display:flex;gap:.75rem;flex-wrap:wrap}
+/* CONTACT */
+.contact-wrap{display:grid;grid-template-columns:1.5fr 1fr;gap:2rem;align-items:start}
+.contact-form textarea{resize:vertical;min-height:100px}
+.contact-info{background:var(--bg1);border:1px solid var(--bg2);border-radius:16px;padding:2rem;display:flex;flex-direction:column;gap:.9rem}
+.contact-info h3{margin-bottom:.5rem}
+@media(max-width:900px){.contact-wrap{grid-template-columns:1fr}.about-inner{flex-direction:column;align-items:center;text-align:center}}
+@media(max-width:768px){.hero{padding:3rem 1.2rem}.hero h1{font-size:2.2rem}.hero-btns{flex-direction:column;align-items:center}}
