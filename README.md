@@ -57,4 +57,4 @@ npm start       # Lancer le serveur de production
 
 ---
 
-© 2024 SIDOX EDU — Tous droits réservés.
+© 2026 SIDOX EDU — Tous droits réservés.
