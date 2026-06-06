@@ -1,9 +1,9 @@
 import React from 'react';
-import {FaWhatsapp,FaTelegram,FaTiktok} from 'react-icons/fa';
-import {FiMail,FiPhone} from 'react-icons/fi';
+import { FaWhatsapp, FaTelegram, FaTiktok } from 'react-icons/fa';
+import { FiMail } from 'react-icons/fi';
 import './Footer.css';
-export default function Footer(){
-  return(
+export default function Footer() {
+  return (
     <footer className="ftr">
       <div className="ftr-inner">
         <div className="ftr-brand">
@@ -11,7 +11,7 @@ export default function Footer(){
           <div>
             <h3>SIDOX EDU</h3>
             <p>منصة تعليمية — AutoCAD & Covadis</p>
-            <p style={{fontSize:'.8rem',marginTop:'.25rem'}}>Sid Ali DIAF · Formateur depuis +6 ans</p>
+            <p style={{ fontSize: '.8rem', marginTop: '.25rem' }}>Sid Ali DIAF · Formateur depuis +6 ans</p>
           </div>
         </div>
         <div className="ftr-links">
